@@ -28,7 +28,7 @@ The project contains two main functions: `yukle_ve_donustur` for loading and con
 
 ```python
 from mpltern.datasets import get_triangular_grid
-```
+
 ## Data location for the triangular grid
 t, l, r = get_triangular_grid()
 
@@ -41,6 +41,7 @@ data_list = [data_np, lab_data_np, data_np]  # Third dataset for curve
 labels = ['given data', 'lab data', 'curve for given data']
 titles = ['Acetic acid (W/W,%)', 'Water \n(W/W,%)', 'Butyl acetate \n(W/W,%)']
 ternary_plot_olustur(t, l, r, data_list, labels, titles)
+'''
 
 # Output
 ![Figure_1](https://github.com/enes-yapici/ternaryPlot/assets/125216116/0df2f2aa-8ea2-430c-b661-0cdd603a9870)
