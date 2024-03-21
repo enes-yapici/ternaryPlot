@@ -29,7 +29,7 @@ The project contains two main functions: `yukle_ve_donustur` for loading and con
 ```python
 from mpltern.datasets import get_triangular_grid
 ```
-# Data for the triangular grid
+# Data location for the triangular grid
 t, l, r = get_triangular_grid()
 
 # Load and parse data
